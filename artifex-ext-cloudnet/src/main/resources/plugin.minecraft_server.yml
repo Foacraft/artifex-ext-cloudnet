@@ -1,0 +1,7 @@
+api-version: '1.13'
+depend: [CloudNet-Bridge]
+name: artifex-ext-cloudnet
+main: com.foacraft.ext.artifex.GeneratedBukkitartifex_ext_cloudnetEntrypoint
+version: 1.0.0
+commands: {}
+authors: [Score2]

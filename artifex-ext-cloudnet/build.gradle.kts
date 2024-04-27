@@ -8,7 +8,6 @@ repositories {
     mavenCentral()
     maven("https://repository.derklaro.dev/snapshots/")
     maven("https://repository.derklaro.dev/releases/")
-    maven("https://repo.cloudnetservice.eu/repository/snapshots/")
     maven("https://s01.oss.sonatype.org/content/repositories/releases/")
     maven("https://hub.spigotmc.org/nexus/repository/public/")
     maven("https://repo.papermc.io/repository/maven-snapshots/")
@@ -24,6 +23,11 @@ dependencies {
     compileOnly("eu.cloudnetservice.cloudnet:node:4.0.0-RC10")
     compileOnly("eu.cloudnetservice.cloudnet:bridge:4.0.0-RC10")
     compileOnly("eu.cloudnetservice.cloudnet:platform-inject-api:4.0.0-RC10")
+
+    compileOnly("org.projectlombok:lombok:1.18.32")
+    annotationProcessor("org.projectlombok:lombok:1.18.32")
+
+//    annotationProcessor("eu.cloudnetservice.cloudnet:platform-inject-processor:4.0.0-RC10")
 
     compileOnly(fileTree("libs"))
 }
