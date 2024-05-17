@@ -9,7 +9,7 @@ import eu.cloudnetservice.node.module.listener.PluginIncludeListener;
 import jakarta.inject.Singleton;
 
 @Singleton
-public final class ArtifexCloudnetExt extends DriverModule {
+public final class NodeArtifexCloudnetExt extends DriverModule {
 
     @ModuleTask(order = 64, lifecycle = ModuleLifeCycle.LOADED)
     public void initListeners(

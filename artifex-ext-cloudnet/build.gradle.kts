@@ -36,7 +36,7 @@ moduleJson {
     author = "Score2"
     name = project.name
     group = project.group.toString()
-    main = "${rootProject.group}.ArtifexCloudnetExt"
+    main = "${rootProject.group}.NodeArtifexCloudnetExt"
 }
 
 blossom {

@@ -1,1 +1,1 @@
-{"name":"artifex-ext-cloudnet","main":"com.foacraft.ext.artifex.GeneratedVelocityartifex_ext_cloudnetEntrypoint","id":"artifex-ext-cloudnet","version":"artifex-ext-cloudnet","authors":["Score2"],"dependencies":[{"optional":false,"id":"cloudnet-bridge"}]}
+{"name":"artifex-ext-cloudnet","main":"com.foacraft.ext.artifex.boot.VelocityBoot","id":"artifex-ext-cloudnet","version":"artifex-ext-cloudnet","authors":["Score2"],"dependencies":[{"optional":false,"id":"cloudnet-bridge"}]}

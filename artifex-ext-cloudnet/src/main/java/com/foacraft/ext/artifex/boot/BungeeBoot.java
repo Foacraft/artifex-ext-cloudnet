@@ -1,10 +1,11 @@
-package com.foacraft.ext.artifex;
+package com.foacraft.ext.artifex.boot;
 
+import com.foacraft.ext.artifex.BungeeArtifexCloudnetExt;
 import eu.cloudnetservice.ext.platforminject.loader.PlatformInjectSupportLoader;
 import net.md_5.bungee.api.plugin.Plugin;
 
-public class GeneratedBungeecordartifex_ext_cloudnetEntrypoint extends Plugin {
-  public GeneratedBungeecordartifex_ext_cloudnetEntrypoint() {
+public class BungeeBoot extends Plugin {
+  public BungeeBoot() {
   }
 
   @Override

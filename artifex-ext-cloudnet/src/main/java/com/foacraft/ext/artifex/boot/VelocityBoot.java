@@ -1,5 +1,6 @@
-package com.foacraft.ext.artifex;
+package com.foacraft.ext.artifex.boot;
 
+import com.foacraft.ext.artifex.VelocityArtifexCloudnetExt;
 import com.google.inject.Inject;
 import com.velocitypowered.api.event.Subscribe;
 import com.velocitypowered.api.event.proxy.ProxyInitializeEvent;
@@ -9,12 +10,12 @@ import com.velocitypowered.api.proxy.ProxyServer;
 import eu.cloudnetservice.ext.platforminject.api.mapping.PlatformedContainer;
 import eu.cloudnetservice.ext.platforminject.loader.PlatformInjectSupportLoader;
 
-public class GeneratedVelocityartifex_ext_cloudnetEntrypoint {
+public class VelocityBoot {
   private final PlatformedContainer data;
 
   @Inject
-  public GeneratedVelocityartifex_ext_cloudnetEntrypoint(PluginContainer container,
-      ProxyServer proxy) {
+  public VelocityBoot(PluginContainer container,
+                      ProxyServer proxy) {
     this.data = new PlatformedContainer(this, container, proxy);
   }
 

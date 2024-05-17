@@ -1,5 +1,5 @@
 depends: [CloudNet-Bridge]
 author: Score2
 name: artifex-ext-cloudnet
-main: com.foacraft.ext.artifex.GeneratedBungeecordartifex_ext_cloudnetEntrypoint
+main: com.foacraft.ext.artifex.boot.BungeeBoot
 version: 1.0.0

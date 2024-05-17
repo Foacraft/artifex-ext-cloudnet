@@ -1,10 +1,11 @@
-package com.foacraft.ext.artifex;
+package com.foacraft.ext.artifex.boot;
 
+import com.foacraft.ext.artifex.BukkitArtifexCloudnetExt;
 import eu.cloudnetservice.ext.platforminject.loader.PlatformInjectSupportLoader;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class GeneratedBukkitartifex_ext_cloudnetEntrypoint extends JavaPlugin {
-  public GeneratedBukkitartifex_ext_cloudnetEntrypoint() {
+public class BukkitBoot extends JavaPlugin {
+  public BukkitBoot() {
   }
 
   @Override
