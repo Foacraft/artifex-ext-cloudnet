@@ -1,5 +1,6 @@
 package com.foacraft.ext.artifex.api;
 
+import eu.cloudnetservice.driver.event.Event;
 import eu.cloudnetservice.driver.event.EventListener;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -15,7 +16,7 @@ import java.util.function.Consumer;
  */
 @Data
 @AllArgsConstructor
-public class CloudEventInject<E> {
+public class CloudEventInject<E extends Event> {
 
     private Consumer<E> exec;
 

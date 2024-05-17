@@ -1,5 +1,6 @@
 package com.foacraft.ext.artifex.api;
 
+import eu.cloudnetservice.driver.event.Event;
 import eu.cloudnetservice.driver.event.EventManager;
 import eu.cloudnetservice.driver.inject.InjectionLayer;
 
@@ -20,7 +21,7 @@ public class CloudEventGroup {
 
     private final List<CloudEventInject<?>> injects = new ArrayList<>();
 
-    public <E> void on(Consumer<E> exec) {
+    public <E extends Event> void on(Consumer<E> exec) {
         var injector = new CloudEventInject<>(exec);
         eventManager.registerListener(injector);
         injects.add(injector);
