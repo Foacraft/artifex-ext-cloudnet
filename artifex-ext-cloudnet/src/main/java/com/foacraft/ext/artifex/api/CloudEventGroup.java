@@ -28,6 +28,7 @@ public class CloudEventGroup {
 
     public void unregisters() {
         injects.forEach(eventManager::unregisterListener);
+        injects.clear();
     }
 
 }
